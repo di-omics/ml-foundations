@@ -1,0 +1,46 @@
+{
+  "name": "baseline",
+  "config": {
+    "lr": 0.001,
+    "epochs": 5,
+    "batch_size": 64,
+    "seed": 0,
+    "device": "cpu",
+    "optimizer": "SGD",
+    "torch": "2.14.1"
+  },
+  "seconds": 11.1,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.2507756076505423,
+      "val_loss": 2.191216897053324,
+      "val_accuracy": 0.4595
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.106251142823788,
+      "val_loss": 2.00614459651291,
+      "val_accuracy": 0.581
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.8620154628973178,
+      "val_loss": 1.7076575194194819,
+      "val_accuracy": 0.6027
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.5511088981043042,
+      "val_loss": 1.4128924160246636,
+      "val_accuracy": 0.62
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.300040405577101,
+      "val_loss": 1.2066301843922609,
+      "val_accuracy": 0.6376
+    }
+  ],
+  "test": null
+}
